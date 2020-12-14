@@ -1,0 +1,71 @@
+! X colors.
+*foreground:        #fcfcfc
+*background:        #2F3846
+emacs*foreground:   #ebb2b7
+emacs*background:   #0C0201
+URxvt*foreground:   #ebb2b7
+XTerm*foreground:   #ebb2b7
+UXTerm*foreground:  #ebb2b7
+URxvt*background:   [100]#0C0201
+XTerm*background:   #0C0201
+UXTerm*background:  #0C0201
+URxvt*cursorColor:  #ebb2b7
+XTerm*cursorColor:  #ebb2b7
+UXTerm*cursorColor: #ebb2b7
+
+! special
+*.foreground:	#fcfcfc
+*.background:	#2F3846
+*.cursorColor:	#fcfcfc
+
+! black
+*.color0:       #363A3E
+*.color8:       #5e81ac
+
+! red
+*.color1:       #E28479
+*.color9:       #EC8E83
+
+! green
+*.color2:       #47C3C5
+*.color10:      #51CDCF
+
+! yellow
+*.color3:       #DFC266
+*.color11:      #DFCC70
+
+! blue
+*.color4:       #839AEC
+*.color12:      #8DA4F6
+
+! magenta
+*.color5:       #D18493
+*.color13:      #DB8E9D
+
+! cyan
+*.color6:       #78B3C5
+*.color14:      #82BDCF
+
+! white
+*.color7:       #D2D2D4
+*.color15:      #D1D1D3
+
+
+
+! Black color that will not be affected by bold highlighting.
+*.color66: #0C0201
+*color66:  #0C0201
+
+! Xclock colors.
+XClock*foreground: #ebb2b7
+XClock*background: #0C0201
+XClock*majorColor:  rgba:eb/b2/b7/ff
+XClock*minorColor:  rgba:eb/b2/b7/ff
+XClock*hourColor:   rgba:eb/b2/b7/ff
+XClock*minuteColor: rgba:eb/b2/b7/ff
+XClock*secondColor: rgba:eb/b2/b7/ff
+
+! Set depth to make transparency work.
+URxvt*depth: 32
+
+Xcursor.theme:	Babita-Modern-Ice
